@@ -1,0 +1,10 @@
+<h1>Welcome to Kyle's Garden</h1>
+
+<ul>
+<% @vegetables.each do |vegetable| %>
+    <li><%= link_to vegetable.name, vegetable %></li>
+<% end %>
+
+</ul>
+
+<%= link_to "Plant a new vegetable in Kyle's wonderful, climate controlled garden", new_vegetable_path %>

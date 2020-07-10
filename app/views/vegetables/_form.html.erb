@@ -1,0 +1,11 @@
+<%= form_for @vegetable do |f| %>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %><br>
+    <%= f.label :plant_date %><br>
+    <%= f.datetime_select :plant_date %><br>
+    <%= f.label :color %><br>
+    <%= f.text_field :color %><br>
+    <%= f.label :size %><br>
+    <%= f.number_field :size, in: 1..10 %><br>
+    <%= f.submit %>
+<% end %>

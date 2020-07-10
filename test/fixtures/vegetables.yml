@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  plant_date: 2020-07-10 14:39:50
+  color: MyString
+  size: 1
+
+two:
+  name: MyString
+  plant_date: 2020-07-10 14:39:50
+  color: MyString
+  size: 1

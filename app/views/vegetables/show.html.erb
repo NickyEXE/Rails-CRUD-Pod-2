@@ -1,0 +1,7 @@
+<h1>Behold the Humble <%= @vegetable.color %> <%= @vegetable.name %></h1>
+<p>Planted: <%= @vegetable.plant_date.strftime('%A') %></p>
+<p>Size: <%= @vegetable.size %></p>
+
+<%= button_to "Edit this Veggie", edit_vegetable_path(@vegetable), method: :get %>
+<%= button_to "Destroy this Veggie", vegetable_path(@vegetable), method: :delete %>
+<%= link_to "See All Vegetables", vegetables_path %>
